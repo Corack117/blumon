@@ -13,7 +13,7 @@ Once you have Docker Desktop installed, follow these steps to set up the develop
 1. Create a virtual environment by running the following command:
 
     ```bash
-    py -m venv venv
+    py -m venv venv .
     ```
 
 2. Install the required libraries by running:
