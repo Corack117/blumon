@@ -15,8 +15,13 @@ Once you have Docker Desktop installed, follow these steps to set up the develop
     ```bash
     py -m venv venv .
     ```
+2. Activate the virtual environment. For example, on macOS, use:
 
-2. Install the required libraries by running:
+    ```bash
+    source venv/bin/activate
+    ```
+
+3. Install the required libraries by running:
 
     ```bash
     pip install -r ./requirements.txt
@@ -45,3 +50,5 @@ docker-compose build && docker-compose run --rm app pytest -s
 ```
 
 Now you are ready to start developing and testing the Blumon application!
+
+
